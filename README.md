@@ -19,3 +19,5 @@ This folder contains online travelogue texts published by 100 target tourists.
 (2) The data table contains basic information (Travelogue_title, Views, Likes, Comments, Travel_time, Visiting season, Travel companions, Per capita consumption, Route) for the 1000 popular travelogues in Beijing.
 
 (3) Based on the data table, 100 travelogues are randomly selected as a test set and stored in the test table, while the basic information of the other 900 travelogues were stored in the train table.
+
+For any queries please email Xiangqian Li at 2918643257@qq.com
