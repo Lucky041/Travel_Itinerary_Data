@@ -20,4 +20,8 @@ This folder contains online travelogue texts published by 100 target tourists.
 
 (3) Based on the data table, 100 travelogues are randomly selected as a test set and stored in the test table, while the basic information of the other 900 travelogues were stored in the train table.
 
+4.Benchmark_Model_Code.py
+
+This file contains the specific implementation process of five benchmark models.
+
 For any queries please email Xiangqian Li at 2918643257@qq.com
