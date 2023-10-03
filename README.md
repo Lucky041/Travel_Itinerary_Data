@@ -28,4 +28,8 @@ This file contains the specific implementation process of five benchmark models.
 
 (2) POP : This method determines the popularity of each attraction based on its strategy number. For each target tourist, the method model selects the most popular scenic spot as the starting point, and selects the second most popular scenic spot as the next scenic spot. Under the constraint that the total daily time is less than 10 hours and the total multi day cost is less than the target tourist's expected consumption, the model recommends a multi day route that meets the tourist's travel time.
 
+(3) NSM : For each target tourist, this method randomly selects a scenic spot as the starting point and counts the transportation time from that scenic spot to other scenic spots. The shortest scenic spot is selected as the next scenic spot, and under the constraint of a total daily time of less than 10 hours and a total multi day cost less than the target tourist's expected consumption, a multi day route that meets their travel time is recommended for tourists.
+
+(4) Item CF : Assuming that the first attraction on the actual route of the target tourist is their favorite attraction. Item CF calculates the similarity between other attractions in the attraction database and favorite attractions. For each target tourist, the Item CF model selects the most similar attraction as the starting point, and selects the second most similar attraction as the next attraction. Under the constraint that the total daily time is less than 10 hours and the total multi day cost is less than the target tourist's expected consumption, the Item CF model recommends a multi day route that meets the tourist's travel time.
+
 For any queries please email Xiangqian Li at 2918643257@qq.com
