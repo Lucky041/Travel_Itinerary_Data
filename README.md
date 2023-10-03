@@ -1,5 +1,5 @@
 # Travel_Itinerary_Data
-This database contains three folders: 1. Attractions, 2. Tourists, 3. Travelogues.
+This database contains four folders: 1. Attractions, 2. Tourists, 3. Travelogues, 4. Benchmark_Model_Code.py.
 1. Attractions 
 
 (1) The attraction_informations table contains basic information data (Attraction name, Rating of attraction, Ticket price, Visiting time) for 208 attractions in Beijing.
@@ -20,8 +20,12 @@ This folder contains online travelogue texts published by 100 target tourists.
 
 (3) Based on the data table, 100 travelogues are randomly selected as a test set and stored in the test table, while the basic information of the other 900 travelogues were stored in the train table.
 
-4.Benchmark_Model_Code.py
+4. Benchmark_Model_Code.py
 
 This file contains the specific implementation process of five benchmark models.
+
+(1) Random : For each target tourist, this method randomly selects a scenic spot as the starting point and randomly generates the next unanswered scenic spot. Under the constraint that the total daily time is less than 10 hours and the total multi day cost is less than the expected consumption of the target tourist, it recommends a multi day route that meets the tourist's travel time.
+
+(2) POP : This method determines the popularity of each attraction based on its strategy number. For each target tourist, the method model selects the most popular scenic spot as the starting point, and selects the second most popular scenic spot as the next scenic spot. Under the constraint that the total daily time is less than 10 hours and the total multi day cost is less than the target tourist's expected consumption, the model recommends a multi day route that meets the tourist's travel time.
 
 For any queries please email Xiangqian Li at 2918643257@qq.com
